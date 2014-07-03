@@ -1,0 +1,34 @@
+﻿.sundemo {
+    &.text {
+        color: #ff0000
+    }
+}
+
+/*GridLayoutStart*/
+.sundemo_content {
+    height: 800px;
+    width: 800px;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+}
+.leftsun {
+    -ms-grid-row: 1;
+    background: steelblue;
+}
+.rightsun {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    background: green;
+}
+.lefttree {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    background: yellow;
+}
+.righttree {
+    -ms-grid-row: 2;
+    -ms-grid-column: 2;
+    background: red;
+}
+/*GridLayoutEnd*/
